@@ -11,7 +11,7 @@ body {
     background: #f9f9f9;
     min-height: 100vh;
     overflow: scroll;
-    image-orientation: inherit;
+    image-orientation: from-image;
 }
 
 header {
@@ -74,7 +74,7 @@ header {
 section.sec {
     position: initial;
     background: #003329;
-    padding: 100px;
+    padding: 190px;
 }
 
 section.sec h2 {
