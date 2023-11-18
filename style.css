@@ -10,8 +10,8 @@
 body {
     background: #f9f9f9;
     min-height: 100vh;
-    overflow: scroll;
-    image-orientation: from-image;
+    overflow: -moz-hidden-unscrollable;
+    image-orientation: inherit;
 }
 
 header {
@@ -30,7 +30,7 @@ header {
     font-size: 2em;
     color: #359381;
     pointer-events: none;
-    margin-right: 270px;
+    margin-right: 70px;
 }
 
 .navigation a {
@@ -74,7 +74,7 @@ header {
 section.sec {
     position: initial;
     background: #003329;
-    padding: 190px;
+    padding: 120px;
 }
 
 section.sec h2 {
@@ -84,6 +84,16 @@ section.sec h2 {
 }
 
 section.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
+.parallax {
+    overflow: hidden;
+}
+
+section.sec a {
     font-size: 1em;
     color: #fff;
     font-weight: 300;
