@@ -21,6 +21,7 @@ section.sec p {
     font-size: 1em;
     color: #fff;
     font-weight: 300;
+    text-align: left;
 }
 
 section.sec li {
@@ -33,4 +34,13 @@ section.sec b {
     font-size: 1em;
     color: rgb(205, 239, 215);
     font-weight: 300;
+}
+
+li:not(:last-child){
+    margin-bottom: 15px;
+}
+
+li::before{
+    content: "\2764";
+    color: #359381;
 }
