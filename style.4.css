@@ -21,7 +21,7 @@ body {
 section.sec p {
     font-size: 1em;
     color: #fff;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 section.sec li {
@@ -50,7 +50,7 @@ body p {
 }
 
 section.sec ol.a {
-   list-style: lower-alpha;
+   list-style: square;
    margin-left: 30px;
 }
 
@@ -59,16 +59,15 @@ ol {
 }
 
 section.sec ol.b {
-    list-style: lower-alpha;
+    list-style: square;
     margin-left: 30px;
  }
 
 section.sec ol.c {
-    list-style: lower-alpha;
+    list-style: square;
     margin-left: 30px;
 }
 
-section.sec ol.d {
-    list-style: lower-alpha;
-    margin-left: 30px;
- }
+section.sec {
+    font-weight: 400px;
+}
