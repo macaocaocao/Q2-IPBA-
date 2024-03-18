@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: #003329;
+    overflow:initial;
+}
+
+.logo {
+    font-size: 2em;
+    color: rgba(255, 248, 220, 0.635);
+    pointer-events: none;
+    margin-right: 70px;
+}
+
+section.sec p {
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+}
+
+.Rev {
+    color: #fff;
+    text-align: center;
+}
+
+.Img {
+    margin: 0%;
+}
+
+section.link p {
+    color: #fff;
+    text-align: center;
+}
+.Prob {
+    text-align: center;
+    color: #fff;
+}
+
+.Gen {
+    text-align: center;
+    color: #fff;
+    margin: 3%;
+}
+.Sol {
+    text-align: center;
+    color: #fff;
+}
+
+.Chosen {
+    text-align: center;
+    color: #fff;
+    margin: 3%;
+}
+
+.an {
+    text-align: center;
+    color: #fff;
+}
+
+.liza {
+    text-align: center;
+    color: #fff;
+}
+
+.con {
+    text-align: center;
+    color: #fff;
+}
+
+.ipba {
+    text-align: center;
+    color: #fff;
+    margin: 3%;
+}
