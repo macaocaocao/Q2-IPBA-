@@ -20,7 +20,7 @@ header {
     left: 0;
     width: 100%;
     padding: 30px 100px;
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
     align-items: center;
     z-index: 100;
